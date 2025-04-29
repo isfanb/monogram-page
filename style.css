@@ -70,3 +70,92 @@
 .arrow-bottom:hover {
     cursor: pointer;
 }
+
+.content-one {
+    padding: 3em 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.4em;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.content-one-card-parent {
+    width: 49%;
+}   
+
+.content-one-card {
+    background-color: #bbb;
+    min-height: 38vh;
+}
+
+.default-card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    padding-top: 1em;
+}
+
+.first-card {
+    background-image: url(/monogram-page/assets/first-card.webp);
+}
+
+.first-card:hover {
+    background-image: url(/monogram-page/assets/first-card-hover.webp);
+    cursor: pointer;
+}
+.second-card {
+    background-image: url(/monogram-page/assets/second-card.webp);
+}
+
+.second-card:hover {
+    background-image: url(/monogram-page/assets/second-card-hover.webp);
+    cursor: pointer;
+}
+.third-card {
+    background-image: url(/monogram-page/assets/third-card.webp);
+}
+
+.third-card:hover {
+    background-image: url(/monogram-page/assets/third-card-hover.webp);
+    cursor: pointer;
+}
+.fourth-card {
+    background-image: url(/monogram-page/assets/fourth-card.webp);
+}
+
+.fourth-card:hover {
+    background-image: url(/monogram-page/assets/fourth-card-hover.webp);
+    cursor: pointer;
+}
+
+.pre-order {
+    width: 6vw;
+    background-color: #ff8b68;
+    text-align: center;
+}
+
+.card-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-product-name {
+    font-size: 1.5em;
+    color: #1a2456;
+}
+
+.card-product-price {
+    font-size: 1em;
+    color: #999;
+}
+
+.card-product-desc {
+    font-size: .90em;
+    margin-top: .50em;
+    color: #1a2456;
+}
