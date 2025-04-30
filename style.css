@@ -84,10 +84,22 @@
 .content-one-card-parent {
     width: 49%;
 }   
+.content-one-card-parents {
+    width: 60vw;
+    margin: 0 auto;
+}   
 
 .content-one-card {
     background-color: #bbb;
     min-height: 38vh;
+}
+.content-one-cards {
+    background-color: #bbb;
+    min-height: 45vh;
+}
+.content-section-banner {
+    background-color: #c5c5c5;
+    margin: 3em 0;
 }
 
 .default-card {
@@ -101,36 +113,57 @@
 }
 
 .first-card {
-    background-image: url(/monogram-page/assets/first-card.webp);
+    background-image: url(/assets/first-card.webp);
 }
 
 .first-card:hover {
-    background-image: url(/monogram-page/assets/first-card-hover.webp);
+    background-image: url(/assets/first-card-hover.webp);
     cursor: pointer;
 }
 .second-card {
-    background-image: url(/monogram-page/assets/second-card.webp);
+    background-image: url(/assets/second-card.webp);
 }
 
 .second-card:hover {
-    background-image: url(/monogram-page/assets/second-card-hover.webp);
+    background-image: url(/assets/second-card-hover.webp);
     cursor: pointer;
 }
 .third-card {
-    background-image: url(/monogram-page/assets/third-card.webp);
+    background-image: url(/assets/third-card.webp);
 }
 
 .third-card:hover {
-    background-image: url(/monogram-page/assets/third-card-hover.webp);
+    background-image: url(/assets/third-card-hover.webp);
     cursor: pointer;
 }
 .fourth-card {
-    background-image: url(/monogram-page/assets/fourth-card.webp);
+    background-image: url(/assets/fourth-card.webp);
 }
 
 .fourth-card:hover {
-    background-image: url(/monogram-page/assets/fourth-card-hover.webp);
+    background-image: url(/assets/fourth-card-hover.webp);
     cursor: pointer;
+}
+.keyboard-card {
+    background-image: url(/assets/keyboard-card.webp);
+}
+
+.keyboard-card:hover {
+    background-image: url(/assets/keyboard-card-hover.webp);
+    cursor: pointer;
+}
+
+.content-banner {
+    background-image: url(/assets/shop-banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-banner {
+    width: 60vw;
+    margin: 0 auto;
+    min-height: 55vh;
 }
 
 .pre-order {
@@ -158,4 +191,19 @@
     font-size: .90em;
     margin-top: .50em;
     color: #1a2456;
+}
+
+.section-banner-title {
+    text-align: center;
+    padding-top: 2em;
+    font-size: larger;
+    color: #1a2456;
+}
+
+.section-banner-title h1 {
+    letter-spacing: .20em;
+}
+
+.section-banner-title p {
+    letter-spacing: .20em;
 }
