@@ -84,6 +84,9 @@
 .content-one-card-parent {
     width: 49%;
 }   
+.content-second-card-parent {
+    width: 30%;
+}   
 .content-one-card-parents {
     width: 60vw;
     margin: 0 auto;
@@ -100,6 +103,11 @@
 .content-section-banner {
     background-color: #c5c5c5;
     margin: 3em 0;
+}
+.content-footer {
+    background-color: #1a2456;
+    color: rgb(239, 194, 179);
+    font-size: .80em;
 }
 
 .default-card {
@@ -165,6 +173,14 @@
     margin: 0 auto;
     min-height: 55vh;
 }
+.section-footer {
+    width: 60vw;
+    margin: 0 auto;
+    min-height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3em;
+}
 
 .pre-order {
     width: 6vw;
@@ -206,4 +222,40 @@
 
 .section-banner-title p {
     letter-spacing: .20em;
+}
+
+.footer-title {
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+
+.footer-monogram {
+    width: 10%;
+}
+.footer-subs {
+    width: 30%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: .50em;
+    list-style: none;
+}
+
+.footer-nav li:hover {
+    color: #ff8b68;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.shopBtn {
+    border: none;
+    padding: .20em 1em;
+    background-color: #1a2456;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: .50em;
+    font-weight: 600;
+    cursor: pointer;
 }
